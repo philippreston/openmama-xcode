@@ -19,11 +19,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Examples.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
-		</dict>
 		<key>MAMA C and C++.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,17 +42,22 @@
 		<key>Scons.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Test Tools.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
-		<key>Unit Tests.xcscheme_^#shared#^_</key>
+		<key>Unit Tests and Examples.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>10</integer>
+		</dict>
+		<key>Wombat Bridge.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -72,12 +72,57 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>44013A2619465D1100D5D7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44013A44194674C500D5D7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44013A841947054A00D5D7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44013AB01947098F00D5D7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44013ADC19470A7D00D5D7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44013B021947126000D5D7FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4412091C16B2818C005646FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>4412092016B281BA005646FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4412D4E118F468740014724A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44132EC9193C61BC0044DB16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44132ED9193E30C20044DB16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -292,6 +337,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>44CC127118B694C80089C24E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44D5ABCE19461AA00067DFBC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>44DC9BCE1668124E00BC3673</key>
 		<dict>
 			<key>primary</key>
@@ -303,6 +358,56 @@
 			<true/>
 		</dict>
 		<key>44DC9C4416695F9D00BC3673</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44DE88471945C45A00B89561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44DE88721945E80C00B89561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44DE888E1945E81F00B89561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44DE88AA1945E82200B89561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44DE88BE1945E82600B89561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44E7B82819422E1100E7E490</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44E7B84B1943353700E7E490</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44E7B86F1943368A00E7E490</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44EE1EA118B7469700256F98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44EE790419386B6F0074DB50</key>
 		<dict>
 			<key>primary</key>
 			<true/>

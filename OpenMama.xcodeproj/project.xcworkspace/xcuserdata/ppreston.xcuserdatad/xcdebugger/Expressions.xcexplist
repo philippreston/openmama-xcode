@@ -3,6 +3,9 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "wsem_wait:wSemaphore.c">
+      </ContextState>
+      <ContextState
          contextName = "wsem_post:wSemaphore.c">
       </ContextState>
       <ContextState
@@ -15,6 +18,9 @@
       </ContextState>
       <ContextState
          contextName = "wsem_init:wSemaphore.c">
+      </ContextState>
+      <ContextState
+         contextName = "qpidBridgeMamaQueue_enqueueEvent:queue.c">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

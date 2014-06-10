@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44AA5D5016721BA8000FB1D4"
-               BuildableName = "mamasubscriberc"
-               BlueprintName = "mamasubscriberc"
+               BlueprintIdentifier = "44E7B82819422E1100E7E490"
+               BuildableName = "libwombatmsg.a"
+               BlueprintName = "WombatMsg Static"
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44AA5D5E16721BD1000FB1D4"
-               BuildableName = "mamapublisherc"
-               BlueprintName = "mamapublisherc"
+               BlueprintIdentifier = "44E7B84B1943353700E7E490"
+               BuildableName = "libwombatmsg.dylib"
+               BlueprintName = "WombatMsg Dynamic"
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4424BA90167FD00B0057D2C5"
-               BuildableName = "mamasubscribercpp"
-               BlueprintName = "mamasubscribercpp"
+               BlueprintIdentifier = "44E7B86F1943368A00E7E490"
+               BuildableName = "libwombattcp.a"
+               BlueprintName = "WombatMw Static"
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +56,65 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44B830E1188F3D7B00904126"
-               BuildableName = "mamalistenc"
-               BlueprintName = "mamalistenc"
+               BlueprintIdentifier = "44DE88471945C45A00B89561"
+               BuildableName = "libwombattcp.dylib"
+               BlueprintName = "WombatMw Dynamic"
+               ReferencedContainer = "container:OpenMama.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44DE88721945E80C00B89561"
+               BuildableName = "libmamawmwimpl.a"
+               BlueprintName = "Wombat Bridge Static"
+               ReferencedContainer = "container:OpenMama.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44DE888E1945E81F00B89561"
+               BuildableName = "libmamawmwimpl.dylib"
+               BlueprintName = "Wombat Bridge Dynamic"
+               ReferencedContainer = "container:OpenMama.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44DE88AA1945E82200B89561"
+               BuildableName = "libmamawmsgimpl.a"
+               BlueprintName = "Wombat Payload Static"
+               ReferencedContainer = "container:OpenMama.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44DE88BE1945E82600B89561"
+               BuildableName = "libmamawmsgimpl.dylib"
+               BlueprintName = "Wombat Payload Dynamic"
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -71,15 +127,6 @@
       buildConfiguration = "Debug">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44AA5D5E16721BD1000FB1D4"
-            BuildableName = "mamapublisherc"
-            BlueprintName = "mamapublisherc"
-            ReferencedContainer = "container:OpenMama.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -90,49 +137,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44B830E1188F3D7B00904126"
-            BuildableName = "mamalistenc"
-            BlueprintName = "mamalistenc"
-            ReferencedContainer = "container:OpenMama.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "-m qpid"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-S UTP"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-s DE000CM95AU4.EUR.XPAR"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-tport sub"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-v -v -v -v -v -v -v -v"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "DYLD_LIBRARY_PATH"
-            value = "$(DSTROOT)/lib:$(QPID_HOME)/lib64"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "WOMBAT_PATH"
-            value = "$(OPENMAMA_HOME)/dist"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -142,15 +146,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44AA5D5016721BA8000FB1D4"
-            BuildableName = "mamasubscriberc"
-            BlueprintName = "mamasubscriberc"
-            ReferencedContainer = "container:OpenMama.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

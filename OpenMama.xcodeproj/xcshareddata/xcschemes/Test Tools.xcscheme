@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4463945E188C60440029D869"
-               BuildableName = "mamapingpongc"
-               BlueprintName = "mamapingpongc"
+               BlueprintIdentifier = "44CC127118B694C80089C24E"
+               BuildableName = "capturereplayc"
+               BlueprintName = "capturereplayc"
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,6 +34,20 @@
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "44EE790419386B6F0074DB50"
+               BuildableName = "mamaproducerc_v2"
+               BlueprintName = "mamaproducerc_v2"
+               ReferencedContainer = "container:OpenMama.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -46,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4463945E188C60440029D869"
-            BuildableName = "mamapingpongc"
-            BlueprintName = "mamapingpongc"
+            BlueprintIdentifier = "44CC127118B694C80089C24E"
+            BuildableName = "capturereplayc"
+            BlueprintName = "capturereplayc"
             ReferencedContainer = "container:OpenMama.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +79,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4463945E188C60440029D869"
-            BuildableName = "mamapingpongc"
-            BlueprintName = "mamapingpongc"
+            BlueprintIdentifier = "44CC127118B694C80089C24E"
+            BuildableName = "capturereplayc"
+            BlueprintName = "capturereplayc"
             ReferencedContainer = "container:OpenMama.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -77,15 +91,27 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-pub_tport ping_pub"
+            argument = "-S UTP"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-sub_tport pong_sub"
+            argument = "-f /Users/ppreston/Developer/Libraries/SRC/openmama_stuff/data/openmama_utpcasheuro_capture.5000.10.qpid.mplay"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "-a"
+            argument = "-dictionary /Users/ppreston/Developer/Libraries/SRC/openmama_stuff/data/data.dict.txt"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-tport pub"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-rewind"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-i 0.000001"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -113,9 +139,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4463945E188C60440029D869"
-            BuildableName = "mamapingpongc"
-            BlueprintName = "mamapingpongc"
+            BlueprintIdentifier = "44CC127118B694C80089C24E"
+            BuildableName = "capturereplayc"
+            BlueprintName = "capturereplayc"
             ReferencedContainer = "container:OpenMama.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
