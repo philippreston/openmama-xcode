@@ -204,6 +204,8 @@
 		44328A6C16506743007B25FD /* wConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400B8391642EF50000AF866 /* wConfig.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44328A6D16506761007B25FD /* wInterlocked.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400B83A1642EF50000AF866 /* wInterlocked.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44328A6E16506761007B25FD /* wUuid.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400B83D1642EF50000AF866 /* wUuid.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4435225C19485713007B584B /* fileparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 4435225B19485713007B584B /* fileparser.c */; };
+		4435225E1948571E007B584B /* fileparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4435225D1948571E007B584B /* fileparser.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		443AF87D18A99346004AD07C /* libmama.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4458ACF7166809B70042365F /* libmama.dylib */; };
 		443AF87E18A99346004AD07C /* libwombatcommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4400BD201642F57B000AF866 /* libwombatcommon.a */; };
 		443AF88418A99382004AD07C /* mamaconsumerc_v2.c in Sources */ = {isa = PBXBuildFile; fileRef = 4400BA3A1642F0A0000AF866 /* mamaconsumerc_v2.c */; };
@@ -557,8 +559,6 @@
 		446C1B941851C0D20085BAA2 /* libevent-1.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446C1B901851C0920085BAA2 /* libevent-1.4.2.dylib */; };
 		446C1B951851C1260085BAA2 /* libevent-1.4.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446C1B901851C0920085BAA2 /* libevent-1.4.2.dylib */; };
 		447D9244187FE93100422C1E /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 4400BBF31642F0A0000AF866 /* version.c */; };
-		447D9246187FE9EA00422C1E /* MamdaErrorCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 447D9245187FE9EA00422C1E /* MamdaErrorCode.h */; };
-		447D924A187FEB8B00422C1E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 447D9249187FEB8B00422C1E /* version.h */; };
 		4480D1AA16822EDC00949B35 /* MamdaAuctionFields.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4400BB5B1642F0A0000AF866 /* MamdaAuctionFields.cpp */; };
 		4480D1AB16822EDC00949B35 /* MamdaAuctionListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4400BB5C1642F0A0000AF866 /* MamdaAuctionListener.cpp */; };
 		4480D1AC16822EDC00949B35 /* MamdaBasicSubscription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4400BB5D1642F0A0000AF866 /* MamdaBasicSubscription.cpp */; };
@@ -683,6 +683,7 @@
 		4480D22E16822F2E00949B35 /* MamdaUncrossPriceInd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400BB591642F0A0000AF866 /* MamdaUncrossPriceInd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4480D22F16822F2E00949B35 /* MamdaVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4400BB5A1642F0A0000AF866 /* MamdaVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4480D2301682314E00949B35 /* libmamacpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DC9BD81668128900BC3673 /* libmamacpp.a */; };
+		4482203E19488D5D00ACF521 /* libmamaavismsgimpl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA5D11167206DE000FB1D4 /* libmamaavismsgimpl.dylib */; };
 		44906ACA188065D0005AE074 /* libdl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44906AC9188065D0005AE074 /* libdl.dylib */; };
 		44906ACC188065EC005AE074 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44906ACB188065EC005AE074 /* libpthread.dylib */; };
 		449D7AD717E7B80F00075BFE /* port.h in Headers */ = {isa = PBXBuildFile; fileRef = 449D7AD517E7B80F00075BFE /* port.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -1446,6 +1447,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 44DC9BD71668128900BC3673;
 			remoteInfo = "MAMA C++ Static";
+		};
+		4482203A19488D2E00ACF521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4400B2F01642EB82000AF866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AA5D10167206DE000FB1D4;
+			remoteInfo = "Avis Payload Dynamic";
+		};
+		4482203C19488D3F00ACF521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4400B2F01642EB82000AF866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AA5D08167206CC000FB1D4;
+			remoteInfo = "Avis Payload Static";
 		};
 		4494D44D188020F0002AD0B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -2807,20 +2822,22 @@
 		4400BD201642F57B000AF866 /* libwombatcommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libwombatcommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		44013A24194626BE00D5D7FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		44013A3819465D1100D5D7FA /* MAMA C Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMA C Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44013A3919465D1100D5D7FA /* Common Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Common Unit Tests copy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44013A3919465D1100D5D7FA /* Common Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Common Unit Tests copy-Info.plist"; path = "../openmama_wmw/Common Unit Tests copy-Info.plist"; sourceTree = SOURCE_ROOT; };
 		44013A5E194674C500D5D7FA /* MAMA CPP Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMA CPP Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44013A5F194674C500D5D7FA /* Mama C Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mama C Unit Tests copy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44013A5F194674C500D5D7FA /* Mama C Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mama C Unit Tests copy-Info.plist"; path = "/Users/ppreston/Developer/Libraries/SRC/openmama_wmw/Mama C Unit Tests copy-Info.plist"; sourceTree = "<absolute>"; };
 		44013A9F1947054A00D5D7FA /* MAMA Object Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMA Object Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44013AA01947054B00D5D7FA /* Mama CPP Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mama CPP Unit Tests copy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44013AA01947054B00D5D7FA /* Mama CPP Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mama CPP Unit Tests copy-Info.plist"; path = "/Users/ppreston/Developer/Libraries/SRC/openmama_wmw/Mama CPP Unit Tests copy-Info.plist"; sourceTree = "<absolute>"; };
 		44013AD11947098F00D5D7FA /* MAMA Middleware Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMA Middleware Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44013AD21947098F00D5D7FA /* Mama Object Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mama Object Unit Tests copy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44013AD21947098F00D5D7FA /* Mama Object Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mama Object Unit Tests copy-Info.plist"; path = "/Users/ppreston/Developer/Libraries/SRC/openmama_wmw/Mama Object Unit Tests copy-Info.plist"; sourceTree = "<absolute>"; };
 		44013AF919470A7D00D5D7FA /* MAMA Payload Unit Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMA Payload Unit Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44013AFA19470A7D00D5D7FA /* Mama Middleware Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mama Middleware Unit Tests copy-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44013AFA19470A7D00D5D7FA /* Mama Middleware Unit Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mama Middleware Unit Tests copy-Info.plist"; path = "/Users/ppreston/Developer/Libraries/SRC/openmama_wmw/Mama Middleware Unit Tests copy-Info.plist"; sourceTree = "<absolute>"; };
 		44013B1D1947126000D5D7FA /* MAMA CPP Unit Tests copy.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAMA CPP Unit Tests copy.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44013B1E1947126000D5D7FA /* Mama CPP Unit Tests copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mama CPP Unit Tests copy2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		44013B1E1947126000D5D7FA /* Mama CPP Unit Tests copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mama CPP Unit Tests copy2-Info.plist"; path = "/Users/ppreston/Developer/Libraries/SRC/openmama_wmw/Mama CPP Unit Tests copy2-Info.plist"; sourceTree = "<absolute>"; };
 		4412D4EF18F468740014724A /* mamainboxc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mamainboxc; sourceTree = BUILT_PRODUCTS_DIR; };
 		4412D4F118F5824B0014724A /* clock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clock.c; sourceTree = "<group>"; };
 		4424BA91167FD00B0057D2C5 /* mamasubscribercpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mamasubscribercpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		4435225B19485713007B584B /* fileparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fileparser.c; sourceTree = "<group>"; };
+		4435225D1948571E007B584B /* fileparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileparser.h; sourceTree = "<group>"; };
 		443AF88318A99346004AD07C /* mamaconsumerc_v2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mamaconsumerc_v2; sourceTree = BUILT_PRODUCTS_DIR; };
 		444437C1168227F700AFCCD4 /* libmamda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmamda.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		444437D21682282C00AFCCD4 /* libmamdabook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmamdabook.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2957,6 +2974,7 @@
 		446C1B901851C0920085BAA2 /* libevent-1.4.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libevent-1.4.2.dylib"; path = "/usr/local/lib/libevent-1.4.2.dylib"; sourceTree = "<absolute>"; };
 		447D9245187FE9EA00422C1E /* MamdaErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MamdaErrorCode.h; sourceTree = "<group>"; };
 		447D9249187FEB8B00422C1E /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		4482203719488CBA00ACF521 /* sub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sub.h; sourceTree = "<group>"; };
 		44906AAF18805FEA005AE074 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = "../../MACOSX/gtest-1.7.0/gtest-1.7.0-src/xcode/build/Release/libgtest_main.a"; sourceTree = "<group>"; };
 		44906AB018805FEB005AE074 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = "../../MACOSX/gtest-1.7.0/gtest-1.7.0-src/xcode/build/Release/libgtest.a"; sourceTree = "<group>"; };
 		44906AC9188065D0005AE074 /* libdl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdl.dylib; path = usr/lib/libdl.dylib; sourceTree = SDKROOT; };
@@ -3476,6 +3494,7 @@
 				44AA5D4C16721B6A000FB1D4 /* libavis.0.dylib in Frameworks */,
 				44AA5D30167212E6000FB1D4 /* libwombatcommon.a in Frameworks */,
 				44AA5D2916721205000FB1D4 /* libmama.dylib in Frameworks */,
+				4482203E19488D5D00ACF521 /* libmamaavismsgimpl.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3708,6 +3727,7 @@
 		4400B82E1642EF50000AF866 /* c */ = {
 			isa = PBXGroup;
 			children = (
+				4435225B19485713007B584B /* fileparser.c */,
 				44328A3616506121007B25FD /* darwin */,
 				4400B8301642EF50000AF866 /* destroyHandle.c */,
 				4400B8311642EF50000AF866 /* destroyHandle.h */,
@@ -3792,6 +3812,7 @@
 		4400B8661642EF50000AF866 /* wombat */ = {
 			isa = PBXGroup;
 			children = (
+				4435225D1948571E007B584B /* fileparser.h */,
 				4400B8671642EF50000AF866 /* environment.h */,
 				4400B8681642EF50000AF866 /* machine.h */,
 				4400B8691642EF50000AF866 /* MRSWLock.h */,
@@ -4024,6 +4045,7 @@
 		4400B88F1642F0A0000AF866 /* avis */ = {
 			isa = PBXGroup;
 			children = (
+				4482203719488CBA00ACF521 /* sub.h */,
 				4400B8911642F0A0000AF866 /* avisbridgefunctions.h */,
 				4400B8921642F0A0000AF866 /* avisdefs.h */,
 				4400B8931642F0A0000AF866 /* bridge.c */,
@@ -6820,7 +6842,6 @@
 				44328A5A16506669007B25FD /* destroyHandle.h in Headers */,
 				44328A5B16506669007B25FD /* list.h in Headers */,
 				44328A5C16506669007B25FD /* lookup2.h in Headers */,
-				447D9246187FE9EA00422C1E /* MamdaErrorCode.h in Headers */,
 				44328A5D16506669007B25FD /* platform.h in Headers */,
 				44328A5E16506669007B25FD /* property.h in Headers */,
 				44328A5F16506669007B25FD /* timers.h in Headers */,
@@ -6836,10 +6857,10 @@
 				44328A6C16506743007B25FD /* wConfig.h in Headers */,
 				44328A69165066F8007B25FD /* wMessageStats.h in Headers */,
 				44328A6D16506761007B25FD /* wInterlocked.h in Headers */,
+				4435225E1948571E007B584B /* fileparser.h in Headers */,
 				44328A6E16506761007B25FD /* wUuid.h in Headers */,
 				44328A6A165066F8007B25FD /* wSemaphore.h in Headers */,
 				44328A6B165066F8007B25FD /* wtable.h in Headers */,
-				447D924A187FEB8B00422C1E /* version.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7876,6 +7897,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4482203D19488D3F00ACF521 /* PBXTargetDependency */,
 				44AA5D3B167217DF000FB1D4 /* PBXTargetDependency */,
 				44AA5D2816720EDC000FB1D4 /* PBXTargetDependency */,
 			);
@@ -7895,6 +7917,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4482203B19488D2E00ACF521 /* PBXTargetDependency */,
 				446B4182167FD4A9004E10B7 /* PBXTargetDependency */,
 				446B4185167FD4DE004E10B7 /* PBXTargetDependency */,
 			);
@@ -8254,7 +8277,7 @@
 		4400B2F01642EB82000AF866 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				TargetAttributes = {
 					44013A2619465D1100D5D7FA = {
 						TestTargetID = 4458AC001667F4D00042365F;
@@ -8404,7 +8427,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "# File Locations\nSRC_LOCATION=${OPENMAMA_HOME}/mama/c_cpp/src/c\nHEADER_LOCATION=${SRC_LOCATION}/mama\n\n# Scrape for the MAMA Versions\nCONFIG_FILE=${OPENMAMA_HOME}/mama/VERSION.scons\nif [ ! -e ${CONFIG_FILE} ]\nthen\necho \"Could not find VERSION.scons file\"\nexit 1\nfi\n\nMAMA_VERSION_MAJOR=$(cat ${CONFIG_FILE} | cut -d\" \" -f2 | cut -d\".\" -f1)\nMAMA_VERSION_MINOR=$(cat ${CONFIG_FILE} | cut -d\" \" -f2 | cut -d\".\" -f2)\nMAMA_VERSION_RELEASE=$(cat ${CONFIG_FILE} | cut -d\" \" -f2 | cut -d\".\" -f3)\nPACKAGE_VERSION=\"OpenMAMA ${MAMA_VERSION_MAJOR}.${MAMA_VERSION_MINOR}.${MAMA_VERSION_RELEASE}\"\n\n# File Names - clean\nSRC_FILE=${SRC_LOCATION}/version.c\nHEADER_FILE=${HEADER_LOCATION}/version.h\n\nif [ ! -e ${SRC_FILE} ]\nthen\n# Create Version File\necho \"const char* mama_version = \\\"${PACKAGE_VERSION}\\\";\" > ${SRC_FILE}\nfi\n\nif [ ! -e ${HEADER_FILE} ]\nthen\n# Create Version Header File\necho \"/* This file was automatically generated */\"              >  ${HEADER_FILE}\necho \"#ifndef MamaVersionH\"                                     >> ${HEADER_FILE}\necho \"#define MamaVersionH\"                                     >> ${HEADER_FILE}\necho \"\"                                                         >> ${HEADER_FILE}\necho \"#define MAMA_VERSION_MAJOR ${MAMA_VERSION_MAJOR}\"         >> ${HEADER_FILE}\necho \"#define MAMA_VERSION_MINOR ${MAMA_VERSION_MINOR}\"         >> ${HEADER_FILE}\necho \"#define MAMA_VERSION_RELEASE ${MAMA_VERSION_RELEASE}\"     >> ${HEADER_FILE}\necho \"#define MAMA_VERSION \\\"${PACKAGE_VERSION}\\\"\"              >> ${HEADER_FILE}\necho \"extern const char* mama_version;\"                         >> ${HEADER_FILE}\necho \"\"                                                         >> ${HEADER_FILE}\necho \"#endif\"                                                   >> ${HEADER_FILE}\nfi\n";
+			shellScript = "# File Locations\nSRC_LOCATION=${OPENMAMA_HOME}/mama/c_cpp/src/c\nHEADER_LOCATION=${SRC_LOCATION}/mama\n\n# Scrape for the MAMA Versions\nCONFIG_FILE=${OPENMAMA_HOME}/mama/VERSION.scons\nif [ ! -e ${CONFIG_FILE} ]\nthen\necho \"Could not find VERSION.scons file\"\nexit 1\nfi\n\nMAMA_VERSION_MAJOR=$(cat ${CONFIG_FILE} | cut -d\" \" -f2 | cut -d\".\" -f1)\nMAMA_VERSION_MINOR=$(cat ${CONFIG_FILE} | cut -d\" \" -f2 | cut -d\".\" -f2)\nMAMA_VERSION_RELEASE=$(cat ${CONFIG_FILE} | cut -d\" \" -f2 | cut -d\".\" -f3)\nPACKAGE_VERSION=\"OpenMAMA ${MAMA_VERSION_MAJOR}.${MAMA_VERSION_MINOR}.${MAMA_VERSION_RELEASE}\"\n\n# File Names - clean\nSRC_FILE=${SRC_LOCATION}/version.c\nHEADER_FILE=${HEADER_LOCATION}/version.h\n\n\nif [ ! -e ${SRC_FILE} ]\nthen\n# Create Version File\necho \"const char* mama_version = \\\"${PACKAGE_VERSION}\\\";\" > ${SRC_FILE}\nfi\n\nif [ ! -e ${HEADER_FILE} ]\nthen\n# Create Version Header File\necho \"/* This file was automatically generated */\"              >  ${HEADER_FILE}\necho \"#ifndef MamaVersionH\"                                     >> ${HEADER_FILE}\necho \"#define MamaVersionH\"                                     >> ${HEADER_FILE}\necho \"\"                                                         >> ${HEADER_FILE}\necho \"#define MAMA_VERSION_MAJOR ${MAMA_VERSION_MAJOR}\"         >> ${HEADER_FILE}\necho \"#define MAMA_VERSION_MINOR ${MAMA_VERSION_MINOR}\"         >> ${HEADER_FILE}\necho \"#define MAMA_VERSION_RELEASE ${MAMA_VERSION_RELEASE}\"     >> ${HEADER_FILE}\necho \"#define MAMA_VERSION \\\"${PACKAGE_VERSION}\\\"\"              >> ${HEADER_FILE}\necho \"extern const char* mama_version;\"                         >> ${HEADER_FILE}\necho \"\"                                                         >> ${HEADER_FILE}\necho \"#endif\"                                                   >> ${HEADER_FILE}\nfi\n";
 		};
 		44328A5916506536007B25FD /* Copying Files for Build System */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -8418,7 +8441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
-			shellScript = "cp ${OPENMAMA_HOME}/common/c_cpp/src/c/darwin/port.h ${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/port.h\ncp ${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wConfig.h ${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wConfig.h\ncp ${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wMath.h ${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wMath.h\ncp ${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wInterlocked.h ${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wInterlocked.h\ncp ${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wUuid.h ${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wUuid.h";
+			shellScript = "setupHeader() {\nFROM_FILE=${1}\nTO_FILE=${2}\n\n# To remove previous problem \nif [ -f ${TO_FILE} ] && [ ! -L ${TO_FILE} ]\nthen\n    rm -f ${TO_FILE}\nfi\n\nif [ ! -e ${TO_FILE} ]\nthen\nln -s ${FROM_FILE} ${TO_FILE}\nfi\n}\n\n\nsetupHeader \"${OPENMAMA_HOME}/common/c_cpp/src/c/darwin/port.h\" \"${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/port.h\"\nsetupHeader \"${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wConfig.h\" \"${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wConfig.h\"\nsetupHeader \"${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wMath.h\" \"${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wMath.h\"\nsetupHeader \"${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wInterlocked.h\" \"${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wInterlocked.h\"\nsetupHeader \"${OPENMAMA_HOME}/common/c_cpp/src/c/linux/wUuid.h\" \"${OPENMAMA_HOME}/common/c_cpp/src/c/wombat/wUuid.h\"";
 		};
 		4454C90016B323C000ECDF1F /* Generate Version Files */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -8518,6 +8541,7 @@
 				44328A47165061E0007B25FD /* list.c in Sources */,
 				44328A48165061E0007B25FD /* lookup2.c in Sources */,
 				44328A44165061E0007B25FD /* machine.c in Sources */,
+				4435225C19485713007B584B /* fileparser.c in Sources */,
 				44328A49165061E0007B25FD /* MRSWLock.c in Sources */,
 				44328A46165061E0007B25FD /* platform.c in Sources */,
 				44328A4A165061E0007B25FD /* properties.l in Sources */,
@@ -9723,6 +9747,16 @@
 			target = 44DC9BD71668128900BC3673 /* MAMA C++ Static */;
 			targetProxy = 4480D1DA16822EE600949B35 /* PBXContainerItemProxy */;
 		};
+		4482203B19488D2E00ACF521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AA5D10167206DE000FB1D4 /* Avis Payload Dynamic */;
+			targetProxy = 4482203A19488D2E00ACF521 /* PBXContainerItemProxy */;
+		};
+		4482203D19488D3F00ACF521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AA5D08167206CC000FB1D4 /* Avis Payload Static */;
+			targetProxy = 4482203C19488D3F00ACF521 /* PBXContainerItemProxy */;
+		};
 		4494D44E188020F0002AD0B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4412092016B281BA005646FF /* MAMDA Java */;
@@ -10080,7 +10114,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -10142,7 +10176,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -10200,7 +10234,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -10264,7 +10298,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -10324,7 +10358,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -10388,7 +10422,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -10447,7 +10481,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -10511,7 +10545,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -10570,7 +10604,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -10634,7 +10668,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -10693,7 +10727,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -10756,7 +10790,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -13150,7 +13184,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -13210,7 +13244,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COMBINE_HIDPI_IMAGES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = (

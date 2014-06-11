@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -465,118 +465,6 @@
                BlueprintIdentifier = "44EE790419386B6F0074DB50"
                BuildableName = "mamaproducerc_v2"
                BlueprintName = "mamaproducerc_v2"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44DE888E1945E81F00B89561"
-               BuildableName = "libmamawmwimpl.dylib"
-               BlueprintName = "Wombat Bridge Dynamic"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44DE88721945E80C00B89561"
-               BuildableName = "libmamawmwimpl.a"
-               BlueprintName = "Wombat Bridge Static"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44DE88BE1945E82600B89561"
-               BuildableName = "libmamawmsgimpl.dylib"
-               BlueprintName = "Wombat Payload Dynamic"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44DE88AA1945E82200B89561"
-               BuildableName = "libmamawmsgimpl.a"
-               BlueprintName = "Wombat Payload Static"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44E7B84B1943353700E7E490"
-               BuildableName = "libwombatmsg.dylib"
-               BlueprintName = "WombatMsg Dynamic"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44E7B82819422E1100E7E490"
-               BuildableName = "libwombatmsg.a"
-               BlueprintName = "WombatMsg Static"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44DE88471945C45A00B89561"
-               BuildableName = "libwombattcp.dylib"
-               BlueprintName = "WombatMw Dynamic"
-               ReferencedContainer = "container:OpenMama.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44E7B86F1943368A00E7E490"
-               BuildableName = "libwombattcp.a"
-               BlueprintName = "WombatMw Static"
                ReferencedContainer = "container:OpenMama.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
