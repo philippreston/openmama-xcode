@@ -34,6 +34,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>MachineTester.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>QPID Bridge.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -42,17 +47,17 @@
 		<key>Scons.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Test Tools.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Unit Tests and Examples.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>9</integer>
 		</dict>
 		<key>Wombat Bridge.xcscheme_^#shared#^_</key>
 		<dict>
@@ -248,6 +253,11 @@
 			<true/>
 		</dict>
 		<key>44786AD71883358500DDECCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>448220441948C96300ACF521</key>
 		<dict>
 			<key>primary</key>
 			<true/>

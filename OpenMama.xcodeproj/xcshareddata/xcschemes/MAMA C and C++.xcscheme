@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -81,6 +81,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4458AC001667F4D00042365F"
+            BuildableName = "libmama.a"
+            BlueprintName = "MAMA Static"
+            ReferencedContainer = "container:OpenMama.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <CommandLineArguments>
          <CommandLineArgument
             argument = "-m avis"

@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9A5525B4-06AF-4F18-9717-E711A17B7B89</string>
 	<key>IDESourceControlProjectName</key>
-	<string>OpenMama</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>59D299FA-66C8-47D8-8F06-C517F4989587</key>
+		<key>A51FF9A21335C1880B2E953417D412A08DE02881</key>
 		<string>http://git.openmama.org/OpenMAMA.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>OpenMama.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>59D299FA-66C8-47D8-8F06-C517F4989587</key>
+		<key>A51FF9A21335C1880B2E953417D412A08DE02881</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>http://git.openmama.org/OpenMAMA.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>59D299FA-66C8-47D8-8F06-C517F4989587</string>
+	<string>A51FF9A21335C1880B2E953417D412A08DE02881</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>59D299FA-66C8-47D8-8F06-C517F4989587</string>
+			<string>A51FF9A21335C1880B2E953417D412A08DE02881</string>
 			<key>IDESourceControlWCCName</key>
-			<string>openmama_xcode</string>
+			<string>openmama_next</string>
 		</dict>
 	</array>
 </dict>
